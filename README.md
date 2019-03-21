@@ -13,7 +13,7 @@ for(let i=0;i<arr.length;i++){
 }
 }
 `
-* ii.计数排序去重(只能是正整数)
+  * ii.计数排序去重(只能是正整数)
 `
 let hash={}
 for(let i=0;i<arr.length;i++){
@@ -23,7 +23,7 @@ for(let i=0;i<arr.length;i++){
 let arr2=hash.keys()//此时数组的每一项都是字符串
 arr2.map(()=>{})
 `
-* iii.set对象
+  * iii.set对象
 `
 let arr2=Array.from(new Set(arr))
 `
