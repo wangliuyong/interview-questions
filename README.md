@@ -28,6 +28,7 @@ arr2.map(()=>{})
 let arr2=Array.from(new Set(arr))
 `
 * 2.去除空格
+
 `
 //api出去空格
 String.trim()
@@ -36,7 +37,9 @@ function trim(string){
   return string.repalce(/^\s+|\s+$/,’’)
 }
 `
+
 * 3.==与===的深入理解
+
 `
 var c=0
 let a4={
