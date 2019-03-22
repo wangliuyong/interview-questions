@@ -36,6 +36,19 @@ function trim(string){
   return string.repalce(/^\s+|\s+$/,’’)
 }
 `
+* 3.==与===的深入理解
+`
+var c=0
+let a4={
+	valueOf:()=>{
+		return c++
+	},
+	toString:()=>{console.log(2)}
+}
+if(a4==1&&a4==2&&a4==3){
+	console.log(1)
+}
+`
 
 # Css
 
